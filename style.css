@@ -133,6 +133,7 @@ body.active {
     visibility: hidden;
     opacity: 0;
     transition: all 0.3s;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.293);
 }
 .bell-popuup:after {
     content: " ";
@@ -238,6 +239,7 @@ body.active {
     opacity: 0;
     transition: all 0.3s;
     text-align: left;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.293);
 }
 .admin-popuup:after {
     content: " ";
@@ -1665,5 +1667,59 @@ h3 {
     }
     .slide-box2 ul li strong {
         font-size: 14px;
+    }
+    .navbar-right-column {
+        gap: 10px;
+    }
+    .content-cont {
+        padding: 0;
+    }
+    .info-img-box1 strong {
+        font-size: 30px;
+    }
+    .info-img-box1 i {
+        font-size: 30px;
+    }
+    .info-img-box2 h3 {
+        font-size: 16px;
+    }
+    .info-img-box2 p {
+        font-size: 14px;
+    }
+    .info-right-box div {
+        display: block;
+        width: 100%;
+    }
+    .info-right-right-box2 {
+        margin-top: 24px;
+    }
+    .slide-box2 ul li line span {
+        margin: 0 12px;
+        width: 100px;
+        height: 12px;
+    }
+    .slide-box2 ul li p {
+        padding: 9px 12px;
+    }
+    .slide-box2 ul li strong {
+        padding: 9px 12px;
+    }
+    .schema-value-1 {
+        display: block;
+        justify-content: center;
+    }
+    .schema-value-box1 {
+        margin: 10px auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .schema-value-1 div strong {
+        display: flex;
+        justify-content: center;
+    }
+    .schema-value-1 div p {
+        margin: 0;
+        display: flex;
+        justify-content: center;
     }
 }
